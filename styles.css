@@ -1,0 +1,147 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.table {
+  width: 600px;
+  border: 1px solid #DDDDDD;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+
+
+.table .head th {
+  font-size: 13px;
+  font-weight: bold;
+  color: #999999;
+  text-align: center;
+  padding: 5px;
+}
+
+.table .libertadores {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #003366;
+}
+
+.table .preLibertadores {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #1398BE;
+}
+
+.table .sulAmericana {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #DE9800;
+}
+
+.table .neutral {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #CCCCCC;
+}
+
+.table .relegation {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #C91B04;
+}
+
+.table .separator td {
+  border-top: 2px solid #CCCCCC;
+}
+
+
+.table tbody tr td:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666666;
+  text-align: left;
+  padding: 5px 100px 5px 5px;
+  
+}
+
+.table tbody tr td:nth-child(3) {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 5px 10px;
+}
+
+.table tbody tr td {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+  padding: 5px 10px;
+  border-top: 1px solid #DDDDDD;
+}
+
+
+.table tbody tr td:nth-child(5) {
+  background-color: #f7f7f7;
+}
+.table tbody tr td:nth-child(7) {
+  background-color: #f7f7f7;
+}
+.table tbody tr td:nth-child(9) {
+  background-color: #f7f7f7;
+}
+.table tbody tr td:nth-child(11) {
+  background-color: #f7f7f7;
+  padding: 3px;
+}
+
+
+.table .caption td {
+  padding: 10px;
+  font-size: 10px;
+  color: #8f8f8f;
+  text-align: left;
+  border-top: 1px solid #DDDDDD;
+}
+
+
+.table .caption i:nth-child(1) {
+  color: #003366;
+}
+
+.table .caption i:nth-child(2) {
+  color: #1398BE;
+  margin-left: 5px;
+}
+
+.table .caption i:nth-child(3) {
+  color: #DE9800;
+  margin-left: 5px;
+}
+.table .caption i:nth-child(4) {
+  color: #C91B04;
+  margin-left: 5px;
+}
+
+
+.table .acronyms td {
+  padding: 0 5px 5px 10px;
+  font-size: 10px;
+  color: #555555;
+  text-align: left;
+}
